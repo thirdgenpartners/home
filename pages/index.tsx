@@ -52,5 +52,9 @@ const Emails = styled.h2`
       color: black;
       text-decoration: underline;
     }
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 `;

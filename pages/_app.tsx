@@ -1,12 +1,17 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle =  createGlobalStyle`
-  html {
-    font-family: 'Poppins', sans-serif;
+  * {
+    box-sizing: border-box;
   }
 
-  body {
+  html, body {
+    padding: 0;
     margin: 0;
+  }
+
+  html {
+    font-family: 'Poppins', sans-serif;
   }
 `;
 
