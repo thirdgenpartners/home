@@ -6,6 +6,7 @@ export default function() {
     <>
       <Head>
         <title>Third Gen Partners</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
       </Head>
       <Container>
         <Title>Third Gen Partners</Title>

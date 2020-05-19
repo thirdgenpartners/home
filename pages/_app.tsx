@@ -2,8 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle =  createGlobalStyle`
   html {
-    @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400&display=swap');
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   body {
