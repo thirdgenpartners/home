@@ -19,7 +19,7 @@ export default function() {
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500:600&display=swap" rel="stylesheet" />
       </Head>
       <HamburgerMenu />
-      <Logo />
+      <Logo href="/" />
       <PageContainer>
         <PageHeader>Contact us</PageHeader>
         <Section>
