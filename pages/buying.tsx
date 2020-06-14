@@ -3,18 +3,16 @@ import styled from 'styled-components';
 import { HamburgerMenu } from '../src/components/Hamburger';
 
 const Container = styled.div`
-  background-image: url('background.png');
-  background-size: cover;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  max-height: fill-available;
+  background-color: #EEEEEE;
 `;
 
 export default function() {
   return (
     <Container>
       <Head>
-        <title>Third Gen Partners</title>
+        <title>Third Gen Partners - Buying</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
       </Head>
