@@ -14,27 +14,27 @@ export default function() {
   return (
     <Container>
       <Head>
-        <title>Third Gen Partners - Buying</title>
+        <title>Third Gen Partners - Team</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
       </Head>
       <HamburgerMenu />
-      <Logo href="/" />
+      <Logo />
       <PageContainer>
-        <PageHeader>What we look for</PageHeader>
+        <PageHeader>Who we are</PageHeader>
         <Section>
-          <SectionHeader>Owner earnings</SectionHeader>
+          <SectionHeader>Valuing customer experience and design</SectionHeader>
           <SectionText>
-            We buy businesses making $1M-2M in owner earnings with no intention of ever selling them.
+            With 10 years experience building software and hardware for B2C and B2B2C use cases, we value customer experience and great design over everything.
           </SectionText>
         </Section>
         <Section>
-          <SectionHeader>Industries we like</SectionHeader>
+          <SectionHeader>If you want to go far, go together</SectionHeader>
           <SectionText spaceBelow>
-            We believe that the best businesses know their customers deeply. We like B2C and B2B2C businesses that build high quality products and never compromise the customer experience. 
+            We also believe that if you want to go fast you could go alone, but if you want to go far you need to go together.
           </SectionText>
           <SectionText spaceBelow>
-            We like B2B suppliers for products like signage, furniture, flooring, and roofing tile.
+            With this as a guiding principle, we don’t believe in cutting costs through employee termination in order to make better short term numbers. We know your employees are like family, and we’ll treat them the same way.
           </SectionText>
           <SectionText spaceBelow>
             We like home improvement and construction contract businesses, especially when they have relationships with developers. 
@@ -44,9 +44,9 @@ export default function() {
           </SectionText>
         </Section>
         <Section>
-          <SectionHeader>Have a business that we’re looking for?</SectionHeader>
+          <SectionHeader>Feel the same way?</SectionHeader>
           <SectionText spaceBelow>
-            If you have a business that fits what we look for then we’d love to get in touch.
+            If you have similar values we’d love to get in touch.
           </SectionText>
         </Section>
       </PageContainer>

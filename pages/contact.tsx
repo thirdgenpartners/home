@@ -5,48 +5,27 @@ import { HamburgerMenu } from '../src/components/Hamburger';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   flex: 1;
   background-color: #EEEEEE;
-  min-height: 100vh;
 `;
 
 export default function() {
   return (
     <Container>
       <Head>
-        <title>Third Gen Partners - Buying</title>
+        <title>Third Gen Partners - Contact</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500:600&display=swap" rel="stylesheet" />
       </Head>
       <HamburgerMenu />
-      <Logo href="/" />
+      <Logo />
       <PageContainer>
-        <PageHeader>What we look for</PageHeader>
+        <PageHeader>Contact us</PageHeader>
         <Section>
-          <SectionHeader>Owner earnings</SectionHeader>
+          <SectionHeader>Email us</SectionHeader>
           <SectionText>
-            We buy businesses making $1M-2M in owner earnings with no intention of ever selling them.
-          </SectionText>
-        </Section>
-        <Section>
-          <SectionHeader>Industries we like</SectionHeader>
-          <SectionText spaceBelow>
-            We believe that the best businesses know their customers deeply. We like B2C and B2B2C businesses that build high quality products and never compromise the customer experience. 
-          </SectionText>
-          <SectionText spaceBelow>
-            We like B2B suppliers for products like signage, furniture, flooring, and roofing tile.
-          </SectionText>
-          <SectionText spaceBelow>
-            We like home improvement and construction contract businesses, especially when they have relationships with developers. 
-          </SectionText>
-          <SectionText spaceBelow>
-            Occasionally we like niche software businesses because of our background in software engineering. More often, however, we like non-technical businesses that might benefit from a faster website, improved SEO, and online lead conversion.
-          </SectionText>
-        </Section>
-        <Section>
-          <SectionHeader>Have a business that we’re looking for?</SectionHeader>
-          <SectionText spaceBelow>
-            If you have a business that fits what we look for then we’d love to get in touch.
+            Reach out at buying@thirdgenpartners.com
           </SectionText>
         </Section>
       </PageContainer>

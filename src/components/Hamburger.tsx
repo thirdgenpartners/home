@@ -95,14 +95,15 @@ const HamburgerIcon = styled.div<{ isOpen: boolean }>`
   position: absolute;
   top: 0;
   left: 0;
-  margin: 30px;
-  transform: rotate(0deg) scale(.8);
+  margin-left: 5px;
+  margin-top: 15px;
+  transform: rotate(0deg) scale(.5);
   transition: .5s ease-in-out;
   cursor: pointer;
 
   ${props => props.isOpen && `
-    left: 85%;
-    transform: rotate(0deg) translateX(-100%) scale(.7);
+    left: 95%;
+    transform: rotate(0deg) translateX(-100%) scale(.5);
   `}
 
   span {

@@ -7,7 +7,6 @@ const Container = styled.div`
   background-size: cover;
   width: 100%;
   height: 100vh;
-  max-height: fill-available;
 `;
 
 export default function() {
@@ -22,7 +21,7 @@ export default function() {
       <Info>
         <Logo src="/tpg.svg" />
         <Headline>
-          Buying businesses with $1M-2M owner earnings.
+          Buying businesses with $1M&nbsp;&mdash;&nbsp;2M&nbsp;owner&nbsp;earnings.
         </Headline>
       </Info>
     </Container>
@@ -30,11 +29,12 @@ export default function() {
 }
 
 const Logo = styled.img`
-  width: 70%;
+  width: 350px;
   margin-bottom: 10px;
+  transition: .5s ease-in-out;
 
   @media(min-width: 768px) {
-    margin-left: auto;
+    width: 500px;
   }
 `;
 
@@ -48,9 +48,13 @@ const Info = styled.div`
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
 
   @media(min-width: 768px) {
-    margin-top: 0;
+    align-items: flex-start;
+    padding-top: 38px;
+    padding-left: 110px;
+    margin-right: auto;
   }
 `
 
@@ -58,6 +62,5 @@ const Headline = styled.div`
   font-size: 24px;
   font-family: 'Lato', sans-serif;
   color: #030F4F;
-  margin-left: auto;
   text-align: center;
 `;

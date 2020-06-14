@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="5468px" height="750px" viewBox="0 0 5468 750" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 5468 750" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Group 13</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-13">
-            <g id="Group-11" transform="translate(0.000000, 337.000000)">
-                <g id="Group-8">
-                    <polygon id="Triangle" fill="#030F4F" points="85 0 170 120 0 120"></polygon>
-                    <path d="M85.0283071,3.24864625 C85.6327698,3.24864625 98.9832285,22.0531843 125.079683,59.6622604 C88.8246668,61.5311916 53.4431484,73.7105015 18.9351278,96.2001903 C18.2456588,96.6495335 84.1216129,3.24864625 85.0283071,3.24864625 Z" id="Triangle" fill="#F6A000"></path>
-                </g>
-            </g>
-            <g id="Group-9" fill="#030F4F">
-                <text id="Third-Gen-Partners" font-family="Lato-Regular, Lato" font-size="625" font-weight="normal">
-                    <tspan x="231.271148" y="617">Third Gen Partners</tspan>
-                </text>
-                <g id="Group" transform="translate(0.000000, 168.750000)">
-                    <polygon id="Triangle" points="84.382716 0 168.765432 118.75 0 118.75"></polygon>
-                    <polygon id="Triangle" points="84.382716 331.25 168.765432 450 0 450"></polygon>
-                </g>
-            </g>
             <g id="Group-9" fill="#030F4F">
                 <text id="Third-Gen-Partners" font-family="Lato-Regular, Lato" font-size="625" font-weight="normal">
                     <tspan x="231.271148" y="617">Third Gen Partners</tspan>
@@ -31,24 +16,6 @@
                 <g id="Group-8">
                     <polygon id="Triangle" fill="#030F4F" points="85 0 170 120 0 120"></polygon>
                     <path d="M85.0283071,3.24864625 C85.6327698,3.24864625 98.9832285,22.0531843 125.079683,59.6622604 C88.8246668,61.5311916 53.4431484,73.7105015 18.9351278,96.2001903 C18.2456588,96.6495335 84.1216129,3.24864625 85.0283071,3.24864625 Z" id="Triangle" fill="#F6A000"></path>
-                </g>
-            </g>
-            <g id="Group-9" fill="#030F4F">
-                <text id="Third-Gen-Partners" font-family="Lato-Regular, Lato" font-size="625" font-weight="normal">
-                    <tspan x="231.271148" y="617">Third Gen Partners</tspan>
-                </text>
-                <g id="Group" transform="translate(0.000000, 168.750000)">
-                    <polygon id="Triangle" points="84.382716 0 168.765432 118.75 0 118.75"></polygon>
-                    <polygon id="Triangle" points="84.382716 331.25 168.765432 450 0 450"></polygon>
-                </g>
-            </g>
-            <g id="Group-9" fill="#030F4F">
-                <text id="Third-Gen-Partners" font-family="Lato-Regular, Lato" font-size="625" font-weight="normal">
-                    <tspan x="231.271148" y="617">Third Gen Partners</tspan>
-                </text>
-                <g id="Group" transform="translate(0.000000, 168.750000)">
-                    <polygon id="Triangle" points="84.382716 0 168.765432 118.75 0 118.75"></polygon>
-                    <polygon id="Triangle" points="84.382716 331.25 168.765432 450 0 450"></polygon>
                 </g>
             </g>
         </g>
