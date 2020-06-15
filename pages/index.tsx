@@ -36,8 +36,16 @@ const Logo = styled.img`
   margin-bottom: 10px;
   transition: .5s ease-in-out;
 
+  @supports (-webkit-backdrop-filter: blur(1px)) {
+    margin-left: 30px;
+  }
+
   @media(min-width: 768px) {
     width: 500px;
+
+    @supports (-webkit-backdrop-filter: blur(1px)) {
+      margin-left: 0;
+    }
   }
 `;
 
