@@ -5,7 +5,6 @@ import { HamburgerMenu } from '../src/components/Hamburger';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   flex: 1;
   background-color: #EEEEEE;
 `;
@@ -17,6 +16,9 @@ export default function() {
         <title>Third Gen Partners - Contact</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500:600&display=swap" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <HamburgerMenu />
       <Logo href="/" />
@@ -42,7 +44,7 @@ const Logo = styled.a`
 
   @media(min-width: 768px) {
     margin-top: 38px;
-    margin-left: 110px;
+    margin-left: 150px;
     background-image: url(tpg.svg);
     background-size: cover;
     width: 500px;
@@ -50,24 +52,11 @@ const Logo = styled.a`
   }
 `;
 
-const Info = styled.div`
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media(min-width: 768px) {
-    margin-top: 0;
-  }
-`;
-
 const PageContainer = styled.div`
   padding: 0 20px 0 20px;
 
   @media(min-width: 768px) {
-    padding: 20px 110px 0 110px;
+    padding: 20px 150px 0 150px;
   }
 `;
 

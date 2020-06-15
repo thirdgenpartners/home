@@ -5,7 +5,6 @@ import { HamburgerMenu } from '../src/components/Hamburger';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   flex: 1;
   background-color: #EEEEEE;
 `;
@@ -17,6 +16,9 @@ export default function() {
         <title>Third Gen Partners - Refer</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <HamburgerMenu />
       <Logo href="/" />
@@ -31,7 +33,7 @@ export default function() {
         <Section>
           <SectionHeader>Know a business that we’re looking for?</SectionHeader>
           <SectionText>
-            If you know a business that fits what we look for then we’d love to get in touch. 
+            If you know a business that fits what we look for then we’d love to <Link href="contact">learn about it</Link>. 
           </SectionText>
         </Section>
       </PageContainer>
@@ -48,7 +50,7 @@ const Logo = styled.a`
 
   @media(min-width: 768px) {
     margin-top: 38px;
-    margin-left: 110px;
+    margin-left: 150px;
     background-image: url(tpg.svg);
     background-size: cover;
     width: 500px;
@@ -73,7 +75,7 @@ const PageContainer = styled.div`
   padding: 0 20px 0 20px;
 
   @media(min-width: 768px) {
-    padding: 20px 110px 0 110px;
+    padding: 20px 150px 0 150px;
   }
 `;
 
@@ -103,4 +105,8 @@ const SectionText = styled.div<{ spaceBelow?: boolean }>`
   ${props => props.spaceBelow && `
     margin-bottom: 20px;
   `}
+`;
+
+const Link = styled.a`
+  color: #030F4F;
 `;

@@ -16,6 +16,9 @@ export default function() {
         <title>Third Gen Partners</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <HamburgerMenu />
       <Info>
@@ -53,7 +56,7 @@ const Info = styled.div`
   @media(min-width: 768px) {
     align-items: flex-start;
     padding-top: 38px;
-    padding-left: 110px;
+    padding-left: 150px;
     margin-right: auto;
   }
 `

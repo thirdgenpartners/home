@@ -1,13 +1,24 @@
 import styled from 'styled-components';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export const HamburgerMenu = () => {
   const [hamOpen, setHamOpen] = useState(false);
 
+  useEffect(() => {
+    if (hamOpen) {
+      document.body.className += ' ' + 'lock-scroll';
+    } else {
+      document.body.className = '';
+    }
+
+  }, [hamOpen])
+
   return (
     <>
+      <Overlay isOpen={hamOpen} />
       <HamburgerContainer isOpen={hamOpen}>
         <NavItemList>
+          <NavItem><a href="/">Home</a></NavItem>
           <NavItem><a href="buying">What we look for</a></NavItem>
           <NavItem><a href="team">Who we are</a></NavItem>
           <NavItem><a href="refer">Refer a business</a></NavItem>
@@ -22,6 +33,20 @@ export const HamburgerMenu = () => {
     </>
   )
 }
+
+const Overlay = styled.div<{ isOpen: boolean }>`
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(219, 219, 219, 0);
+  transition: background-color .5s ease-in-out;
+
+  ${props => props.isOpen && `
+    background-color: rgba(219, 219, 219, 0.7);
+  `}
+`;
 
 const HamburgerContainer = styled.div<{ isOpen: boolean }>`
   position: absolute;

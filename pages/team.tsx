@@ -7,7 +7,6 @@ const Container = styled.div`
   flex-direction: column;
   flex: 1;
   background-color: #EEEEEE;
-  min-height: 100vh;
 `;
 
 export default function() {
@@ -17,6 +16,9 @@ export default function() {
         <title>Third Gen Partners - Team</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <HamburgerMenu />
       <Logo href="/" />
@@ -25,28 +27,25 @@ export default function() {
         <Section>
           <SectionHeader>Valuing customer experience and design</SectionHeader>
           <SectionText>
-            With 10 years experience building software and hardware for B2C and B2B2C use cases, we value customer experience and great design over everything.
+          With 10 years experience building software and hardware for B2C and B2B2C use cases, we value customer experience and great design over everything.
           </SectionText>
         </Section>
         <Section>
           <SectionHeader>If you want to go far, go together</SectionHeader>
           <SectionText spaceBelow>
-            We also believe that if you want to go fast you could go alone, but if you want to go far you need to go together.
+            If you want to go fast you could go alone, but if you want to go far you need to go together.
           </SectionText>
           <SectionText spaceBelow>
-            With this as a guiding principle, we don’t believe in cutting costs through employee termination in order to make better short term numbers. We know your employees are like family, and we’ll treat them the same way.
+            We don’t believe in cutting costs through employee termination in order to make better short term numbers. 
           </SectionText>
           <SectionText spaceBelow>
-            We like home improvement and construction contract businesses, especially when they have relationships with developers. 
-          </SectionText>
-          <SectionText spaceBelow>
-            Occasionally we like niche software businesses because of our background in software engineering. More often, however, we like non-technical businesses that might benefit from a faster website, improved SEO, and online lead conversion.
+            We know your employees are like family, and we’ll treat them the same way.
           </SectionText>
         </Section>
         <Section>
-          <SectionHeader>Feel the same way?</SectionHeader>
+          <SectionHeader>Feel similarly?</SectionHeader>
           <SectionText spaceBelow>
-            If you have similar values we’d love to get in touch.
+            If you have similar values we’d love to <Link href="contact">get in touch</Link>.
           </SectionText>
         </Section>
       </PageContainer>
@@ -63,7 +62,7 @@ const Logo = styled.a`
 
   @media(min-width: 768px) {
     margin-top: 38px;
-    margin-left: 110px;
+    margin-left: 150px;
     background-image: url(tpg.svg);
     background-size: cover;
     width: 500px;
@@ -71,24 +70,11 @@ const Logo = styled.a`
   }
 `;
 
-const Info = styled.div`
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media(min-width: 768px) {
-    margin-top: 0;
-  }
-`;
-
 const PageContainer = styled.div`
   padding: 0 20px 0 20px;
 
   @media(min-width: 768px) {
-    padding: 20px 110px 0 110px;
+    padding: 20px 150px 0 150px;
   }
 `;
 
@@ -118,4 +104,8 @@ const SectionText = styled.div<{ spaceBelow?: boolean }>`
   ${props => props.spaceBelow && `
     margin-bottom: 20px;
   `}
+`;
+
+const Link = styled.a`
+  color: #030F4F;
 `;

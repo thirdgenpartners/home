@@ -13,6 +13,14 @@ const GlobalStyle =  createGlobalStyle`
   html {
     font-family: 'Poppins', sans-serif;
   }
+
+  body {
+    background-color: #EEEEEE
+  }
+
+  .lock-scroll {
+    overflow: hidden;
+  }
 `;
 
 export default function ({ Component, pageProps }) {

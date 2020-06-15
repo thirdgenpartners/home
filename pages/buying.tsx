@@ -7,7 +7,6 @@ const Container = styled.div`
   flex-direction: column;
   flex: 1;
   background-color: #EEEEEE;
-  min-height: 100vh;
 `;
 
 export default function() {
@@ -17,6 +16,9 @@ export default function() {
         <title>Third Gen Partners - Buying</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <HamburgerMenu />
       <Logo href="/" />
@@ -25,28 +27,34 @@ export default function() {
         <Section>
           <SectionHeader>Owner earnings</SectionHeader>
           <SectionText>
-            We buy businesses making $1M-2M in owner earnings with no intention of ever selling them.
+            We buy businesses making $1-2M in owner earnings. We have no intention of selling the businesses we buy.
           </SectionText>
         </Section>
         <Section>
           <SectionHeader>Industries we like</SectionHeader>
           <SectionText spaceBelow>
-            We believe that the best businesses know their customers deeply. We like B2C and B2B2C businesses that build high quality products and never compromise the customer experience. 
+            We like B2C and B2B2C businesses that build high quality products and never compromise the customer experience. 
           </SectionText>
+          <ul>
+            <ListItem>
+              <SectionText spaceBelow>
+                B2B manufacturers or suppliers for products like signage, furniture, flooring, and roofing tile.
+              </SectionText>
+            </ListItem>
+            <ListItem>
+              <SectionText spaceBelow>
+                Home improvement and construction contract businesses, especially when they have relationships with developers. 
+              </SectionText>
+            </ListItem>
+          </ul>
           <SectionText spaceBelow>
-            We like B2B suppliers for products like signage, furniture, flooring, and roofing tile.
-          </SectionText>
-          <SectionText spaceBelow>
-            We like home improvement and construction contract businesses, especially when they have relationships with developers. 
-          </SectionText>
-          <SectionText spaceBelow>
-            Occasionally we like niche software businesses because of our background in software engineering. More often, however, we like non-technical businesses that might benefit from a faster website, improved SEO, and online lead conversion.
+            We’re best suited to buy businesses that benefit from a full-featured online presence including tools like scheduling and payments.
           </SectionText>
         </Section>
         <Section>
           <SectionHeader>Have a business that we’re looking for?</SectionHeader>
           <SectionText spaceBelow>
-            If you have a business that fits what we look for then we’d love to get in touch.
+            If you have a business that fits what we look for then we’d love to <Link href="contact">hear from you</Link>.
           </SectionText>
         </Section>
       </PageContainer>
@@ -63,7 +71,7 @@ const Logo = styled.a`
 
   @media(min-width: 768px) {
     margin-top: 38px;
-    margin-left: 110px;
+    margin-left: 150px;
     background-image: url(tpg.svg);
     background-size: cover;
     width: 500px;
@@ -88,7 +96,7 @@ const PageContainer = styled.div`
   padding: 0 20px 0 20px;
 
   @media(min-width: 768px) {
-    padding: 20px 110px 0 110px;
+    padding: 20px 150px 0 150px;
   }
 `;
 
@@ -118,4 +126,12 @@ const SectionText = styled.div<{ spaceBelow?: boolean }>`
   ${props => props.spaceBelow && `
     margin-bottom: 20px;
   `}
+`;
+
+const Link = styled.a`
+  color: #030F4F;
+`;
+
+const ListItem = styled.li`
+  color: #F6A000;
 `;
