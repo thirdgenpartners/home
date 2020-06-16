@@ -37,14 +37,14 @@ const Logo = styled.img`
   transition: .5s ease-in-out;
 
   @supports (-webkit-backdrop-filter: blur(1px)) {
-    margin-left: 30px;
+    padding-left: 25px;
   }
 
   @media(min-width: 768px) {
     width: 500px;
 
     @supports (-webkit-backdrop-filter: blur(1px)) {
-      margin-left: 0;
+      padding-left: 0;
     }
   }
 `;
