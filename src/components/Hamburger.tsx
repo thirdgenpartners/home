@@ -42,9 +42,11 @@ const Overlay = styled.div<{ isOpen: boolean }>`
   left: 0;
   background-color: rgba(219, 219, 219, 0);
   transition: background-color .5s ease-in-out;
+  z-index: -1;
 
   ${props => props.isOpen && `
     background-color: rgba(219, 219, 219, 0.7);
+    z-index: 0;
   `}
 `;
 
